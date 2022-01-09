@@ -1,0 +1,11 @@
+.bloque{
+    display:inline-flex;
+    margin: 0px 200px;
+    
+}
+.cuadro{
+    align-content: center;
+}
+.lado{
+    margin-left: 200px;
+}
