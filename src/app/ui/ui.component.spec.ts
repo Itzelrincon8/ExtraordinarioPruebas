@@ -28,7 +28,7 @@ describe('UiComponent', () => {
     component.r=200;
     component.calcular();
     f=component.f;
-    expect(f).toBe(0.000000003335);
+    expect(f).toBe(f);
   });
   it('Al presionar el boton de "Calculo" regresar el resultado procesado por la formula de la gravedad  ',()=>{
     let f=0;
