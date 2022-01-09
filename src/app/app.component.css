@@ -1,0 +1,13 @@
+.estilo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.centro{
+    text-align: center;
+}
+.bloque{
+    display: flex;
+    margin: 50px 200px;
+}
+.lado{
+    margin-left: 20000px;
+}
