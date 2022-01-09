@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formula</title>
+</head>
+<body class="bloque cuadro">
+    <section>
+        <p>Masa 1</p>
+        <input type="number" name="m1" placeholder="Masa 1" id="m1" [(ngModel)]="m1">
+        <p>Masa 2</p>
+        <input type="number" name="m2" placeholder="Masa 2" id="m2" [(ngModel)]="m2">
+        <p>Distancia (Metros)</p>
+        <input type="number" name="r" placeholder="Distancia" id="r" [(ngModel)]="r">
+    </section>
+    <div class="lado">
+        <p>Fuerza = {{f}}</p>
+        <button (click)="calcular()">CALCULAR</button>
+    </div>
+</body>
+</html>
